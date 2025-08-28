@@ -1,0 +1,42 @@
+
+POST:/v1/api/friends/request (dùng để gửi lời mời kết bạn)
+GET:/v1/api/friends/list (danh sách bạn bè)
+POST:/v1/api/friends/accept/{id} (đồng ý kết bạn )
+POST:/v1/api/friends/reject/{id} (từ chối kết bạn)
+PATCH:/v1/api/friends/pending (lấy ra danh sách chờ xác nhận)
+GET:/v1/api/friends/requests/sent (lấy ra danh sách lời mời đã gửi)
+POST:/v1/api/friends/cancel/{id} (hủy lời mời đã gửi )
+DELETE:/v1/api/friends/unfriend/{id} (hủy bạn bè)
+
+
+
+
+
+
+DELETE:/v1/api/friends/:id/unfriend (hủy kết bạn)
+
+POST:/v1/api/friends/requests (gửi lời mời kết bạn)
+POST:/v1/api/friends/requests/:id/cancel (hủy lời mời đã gửi )
+POST:/v1/api/friends/requests/:id/action/:status (đồng ý kết bạn và từ chối)
+
+GET:/v1/api/friends (lấy ra danh sách bạn bè)
+GET:/v1/api/friends/requests/sent (lấy ra danh sách lời mời đã gửi)
+GET:/v1/api/friends/requests/pending (lấy ra danh sách chờ xác nhận)
+
+-----------------------------------------------------------------
+-fix lời mời kết bạn
+-lấy post đã follow và bạn bè hiển thị lên feed ✅
+-lấy post của mình trong profile (publlic và friend)
+-lấy post của bạn bè bao gồm post public và post friend
+-lấy post của người lạ bao gồm post public
+--------------------------------------------------
+-like 
+-comment
+-xem profile ơ bạn bè và khong ban be
+-hien thị profile ơ
+-notification
+-push notification
+-
+
+
+

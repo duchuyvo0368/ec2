@@ -1,0 +1,7 @@
+-lỗi like khi show modal home và profile
+-lỗi slider ảnh post (profile/home)
+-reply comment socket
+-like comment, edit comment
+-upload file  bất đồng bộ
+-share link ,
+-tab friend chứa tab=friend

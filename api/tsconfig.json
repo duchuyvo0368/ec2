@@ -1,0 +1,57 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2020",
+        
+        "rootDir": ".", // vì main.ts ở ngoài, còn code trong api/
+        "outDir": "./dist",
+        "types": [
+            "node",
+            "express",
+            "jest"
+        ],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "strict": false,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictBindCallApply": false,
+        "noFallthroughCasesInSwitch": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "/*"
+            ],
+            "module/*": [
+                "module/*"
+            ],
+            "utils/*": [
+                "utils/*"
+            ],
+            "config/*": [
+                "config/*"
+            ]
+        },
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ]
+    },
+    "include": [
+        "main.ts",
+        "module/**/*",
+        "api/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

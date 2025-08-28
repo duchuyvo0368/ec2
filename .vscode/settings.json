@@ -1,0 +1,191 @@
+{
+     "editor.tokenColorCustomizations": {
+          "textMateRules": [
+               {
+                    "scope": "variable",
+                    "settings": {
+                         "foreground": "#00BFFF", // Xanh biển sáng
+                         "fontStyle": "italic"
+                    }
+               },
+               {
+                    "scope": "entity.name.function",
+                    "settings": {
+                         "foreground": "#FFD700", // Vàng tươi
+                         "fontStyle": "bold"
+                    }
+               },
+               {
+                    "scope": "string",
+                    "settings": {
+                         "foreground": "#32CD32", // Xanh lá cây sáng
+                         "fontStyle": " "
+                    }
+               },
+               {
+                    "scope": "keyword",
+                    "settings": {
+                         "foreground": "#FF69B4", // Hồng tím
+                         "fontStyle": "bold"
+                    }
+               },
+               {
+                    "scope": "constant.numeric",
+                    "settings": {
+                         "foreground": "#FFA500", // Cam sáng
+                         "fontStyle": "bold"
+                    }
+               },
+               {
+                    "scope": "invalid",
+                    "settings": {
+                         "foreground": "#FF0000", // Đỏ tươi
+                         "fontStyle": "bold underline"
+                    }
+               },
+               {
+                    "scope": "comment",
+                    "settings": {
+                         "foreground": "#A9A9A9", // Xám nhạt
+                         "fontStyle": "italic"
+                    }
+               },
+               {
+                    "scope": "punctuation.definition.string",
+                    "settings": {
+                         "foreground": "#00FF7F", // Xanh lá mạ
+                         "fontStyle": "bold"
+                    }
+               },
+               {
+                    "scope": "meta.brace",
+                    "settings": {
+                         "foreground": "#FF8C00", // Cam đậm
+                         "fontStyle": "bold"
+                    }
+               },
+               {
+                    "scope": "storage.type",
+                    "settings": {
+                         "foreground": "#7B68EE", // Xanh tím
+                         "fontStyle": "italic bold"
+                    }
+               }
+          ]
+     },
+     "workbench.colorCustomizations": {
+          "editorGutter.errorForeground": "#FF4500",
+          "editorGutter.warningForeground": "#FFD700",
+          "editorGutter.infoForeground": "#87CEEB",
+          "editorError.foreground": "#FF0000", // Màu đỏ cho lỗi
+          "editorWarning.foreground": "#FFA500", // Màu cam cho cảnh báo
+          "editorInfo.foreground": "#00CED1"
+     },
+     "cSpell.enabled": true,
+     "cSpell.language": "en,vi",
+     "cSpell.allowCompoundWords": false,
+     "cSpell.checkStrings": true,
+     "cSpell.checkFileTypes": [
+          ".js",
+          ".ts",
+          ".jsx",
+          ".tsx",
+          ".json"
+     ],
+     "cSpell.checkIdentifiers": true,
+     "cSpell.userWords": [
+          "const",
+          "let",
+          "var",
+          "function",
+          "if",
+          "else",
+          "return",
+          "import",
+          "export",
+          "class",
+          "extends",
+          "super",
+          "async",
+          "await",
+          "for",
+          "while",
+          "switch",
+          "case",
+          "default",
+          "break",
+          "continue",
+          "try",
+          "catch",
+          "finally",
+          "throw",
+          "new",
+          "toString"
+     ],
+     "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+     "editor.fontSize": 14,
+     "editor.lineHeight": 22,
+     "editor.wordWrap": "on",
+     "editor.formatOnSave": true,
+     "editor.formatOnPaste": true,
+     "editor.formatOnType": true,
+     "javascript.validate.enable": true,
+     "typescript.validate.enable": true,
+     "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+     },
+     "editor.tabSize": 5, // Số khoảng trắng mỗi lần thụt vào (giảm xuống 2 thay vì 4)
+     "editor.insertSpaces": true, // Dùng khoảng trắng thay vì tab
+     "editor.detectIndentation": false // Không tự động thay đổi indent dựa trên file
+     ,
+     "editor.guides.bracketPairs": false,
+     "editor.renderValidationDecorations": "on",
+     "errorLens.enabled": true,
+     "errorLens.fontWeight": "bold",
+     "errorLens.errorForeground": "#FF0000", // Màu đỏ cho lỗi
+     "errorLens.warningForeground": "#FFA500", // Màu cam cho cảnh báo
+     "errorLens.infoForeground": "#00CED1",
+     "eslint.enable": true,
+     "prettier.printWidth": 100, // Giới hạn độ dài dòng
+     "prettier.tabWidth": 4, // Số khoảng trắng cho mỗi tab
+     "prettier.useTabs": false, // Dùng dấu cách thay vì tab
+     "prettier.semi": true, // Thêm dấu chấm phẩy cuối dòng
+     "prettier.singleQuote": true, // Dùng nháy đơn thay vì nháy kép
+     "prettier.trailingComma": "all", // Dấu phẩy cuối danh sách
+     "prettier.bracketSpacing": true, // Khoảng cách giữa dấu ngoặc
+     "prettier.arrowParens": "always", // Luôn có dấu ngoặc đơn với arrow function
+     "prettier.endOfLine": "lf", // Chuẩn hóa xuống dòng (LF)
+     "editor.defaultFormatter": "esbenp.prettier-vscode",
+     "editor.fontLigatures": false,
+     "eslint.validate": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
+     ],
+     "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+     },
+     "[typescript]": {
+          "editor.defaultFormatter": "vscode.typescript-language-features"
+     },
+     "[json]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+     },
+     "eslint.rules": {
+          "no-restricted-properties": [
+               "warn",
+               {
+                    "property": "toString",
+                    "message": "Sử dụng phương thức toString() có thể không an toàn."
+               }
+          ]
+     },
+     "[typescriptreact]": {
+          "editor.defaultFormatter": "vscode.typescript-language-features"
+     },
+     "cSpell.words": [
+          "không",
+          "rightsidebar"
+     ]
+}
